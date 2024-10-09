@@ -1,0 +1,55 @@
+/* General stuff */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffaeae;
+}
+
+/* Navigation Menu */
+nav ul {
+    background-color: #ffc793;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 139, 139);
+    text-decoration: none;
+}
+
+/* Page Titles */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Contact form style */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #84ccb0;
+    color: rgb(132, 93, 240);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0f1d29;
+}
